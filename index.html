@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>边框</title>
+</head>
+<style type="text/css">
+
+	.one{
+
+		width: 200px;
+		height: 200px;
+		box-shadow: 1px 1px 1px #b2aa7d;
+		border: 1px solid green;
+		
+	}
+	.tab{
+		width: 200px;
+		height: 300px;
+		background-color:  orange;
+	}
+	.tab1{
+		width: 100px;
+		height: 200px;
+		background-color: blue;
+	}
+.flex{
+	display: flex;
+	border: 1px solid black;
+}
+.tab5{
+	
+	
+border:25px solid black;
+width:100px;
+height: 20px;
+padding:10px 20px;
+border-image: url("../images/border2.png") 10;
+
+	
+}
+ @font-face {  
+      font-family: 'myfont';  
+      src:url('3Dumb/3Dumb.ttf') format('truetype'),
+      url('3Dumb/3Dumb.eot') format('embedded-opentype'),  
+      url('3Dumb/3Dumb.woff') format('truetype');  
+      
+        font-weight: normal;  
+        font-style: normal;  
+    }  
+    h1{  
+        font-family:"myfont";  
+    }  
+
+</style>
+<body>
+ 	<div class="wrap">
+ 		<div class="one"></div>
+ 	</div>
+
+<div class="flex">
+ 	<div class="tab"><p>1</p></div>
+ 	<div class="tab1">2</div>
+ 	<div class="tab">3</div>
+ 	<div class="tab1">4</div>
+ 	<div class="tab5">5边框</div>
+</div>
+ <h1>hello </h1>
+ <h2>hello</h2>
+</body>
+</html>
